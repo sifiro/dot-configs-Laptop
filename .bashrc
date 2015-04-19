@@ -629,6 +629,7 @@ alias pip="/usr/bin/pip2.7"
 alias cls=clear
 alias upgrade="yaourt -Syu"
 alias install="yaourt -Sy"
+alias print=echo
+alias input=read
 export desktop=~/Escritorio
 export git=~/github
-
