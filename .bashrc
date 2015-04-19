@@ -627,5 +627,8 @@ _isroot=false
 #}}}
 alias pip="/usr/bin/pip2.7"
 alias cls=clear
-alias upgrade="pacman -Syu"
-alias install="yaourt -S"
+alias upgrade="yaourt -Syu"
+alias install="yaourt -Sy"
+export desktop=~/Escritorio
+export git=~/github
+
