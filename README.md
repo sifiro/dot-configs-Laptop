@@ -1,2 +1,2 @@
 # dot-configs-Laptop
-Configurations FIles of ArchLinux in my Laptop
+Gentoo's Configurations Files in my Laptop
