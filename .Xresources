@@ -1,8 +1,18 @@
+! -- COLOR -- !
+Xterm*termName: xterm-256color
+URxvt*termName: rxvt-256color
+
+Xft.lcdfilter: lcddefault
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
 ! -- Fonts -- !
-URxvt.font:xft:Source Code Pro:pixelsize=10
-URxvt.boldfont:xft:Source Code Pro-Bold:pixelsize=10
-
-
+URxvt*font: xft:Hack:size=8:hinting=True;antialias:True
+URxvt*boldFont: xft:Hack:bold:size=8;hinting=True:antialias:True
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
 !!SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      RGB         HSB
