@@ -11,10 +11,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 # Settings Wallpaper
-feh --bg-scale ~/.wallpaper/14164613*
 # Settings keyboards
-setxkbmap es
 # exec gnome-session
 # exec startkde
 # exec startxfce4
